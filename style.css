@@ -1,0 +1,96 @@
+
+.wrapper{
+ width:900px;
+ margin: 0 auto;
+}
+.div_one{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.div_one .logo{
+  margin-right: 20px;
+}
+.div_one .logo img{
+    width: 100px;
+    height: 100px;
+  }
+.div_one .div_one_text{
+
+}
+.div_two{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF7F02;
+  padding:10px 0;
+  border-radius: 6px;
+}
+.div_two_text{
+
+}
+.div_three {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.div_three .single_item_three {
+    
+}
+.div_three .single_item_three h3{
+    
+}
+.div_three .single_item_three p{
+    
+}
+.div_four{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FF7F02;
+  border-radius: 6px;
+  overflow: hidden;
+  align-items: center;
+
+}
+.div_four .div_four_image{
+   /* width: 800px; */
+
+  
+}
+.div_four .div_four_image img{}
+  /* width: 100%; */
+  
+.div_four_list{
+ 
+}
+.div_four_singleList{
+  display: flex;
+
+  justify-content: space-between
+}
+.div_four_singleList .icon{
+  background-color: #000;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+
+}
+.div_four_singleList .icon i{
+    
+
+} 
+.div_four_singleList .single_text{
+    
+
+} 
+.div_five{
+
+}
+.div_five h3{
+
+}
+.div_five p{
+    
+}
+
