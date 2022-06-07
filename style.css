@@ -1,6 +1,6 @@
 
 .wrapper{
- width:900px;
+ width:1000px;
  margin: 0 auto;
 }
 .div_one{
@@ -30,9 +30,10 @@
 
 }
 .div_three {
- display: flex;
- align-items: center;
- justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 60px;
 }
 .div_three .single_item_three {
     
@@ -44,29 +45,43 @@
     
 }
 .div_four{
-  display: flex;
-  justify-content: space-between;
-  background-color: #FF7F02;
-  border-radius: 6px;
-  overflow: hidden;
-  align-items: center;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+background-color: #FF7F02;
+position: relative;
+align-content:end;
+border-radius: 6px;
+}
+.div_four_image {
+  position: absolute;
+  z-index: 999;
+  top: 349px;
+  /* left: 0px; */
+  padding: 10px;
+}
+.one{
 
+}
+.two {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
 }
 .div_four .div_four_image{
-   /* width: 800px; */
+  position: relative;
 
   
 }
-.div_four .div_four_image img{}
-  /* width: 100%; */
-  
+.div_four .div_four_image img{
+  position: absolute;
+}
+
 .div_four_list{
  
 }
 .div_four_singleList{
-  display: flex;
-
-  justify-content: space-between
+  /* display: flex;
+  justify-content: space-between */
 }
 .div_four_singleList .icon{
   background-color: #000;
@@ -85,7 +100,7 @@
 
 } 
 .div_five{
-
+margin-top: 50px;
 }
 .div_five h3{
 
@@ -94,3 +109,24 @@
     
 }
 
+.div_three{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.div__three {
+  display: flex;
+  align-items: center;
+}
+.div__three i {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 43px;
+}
+.div__three p {
+  padding: 0 10px;
+}
